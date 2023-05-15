@@ -6,9 +6,9 @@ Requirements
    pytube
 
 Installation
-'''
-pip install pytube
-'''
+   ```
+   pip install pytube
+   ```
 
 Usage
 
