@@ -1,14 +1,16 @@
-# Youtube_Downloader-Console_App
-Youtube video downloader - Console Application [Python]
+<h1>Youtube_Downloader-Console_App</h1>
+<p>Youtube video downloader - Console Application [Python]</p>
 
-Requirements
-   Python 3.6+ 
-   pytube
+<h3>Requirements</h3>
+   <ul>
+      <li>Python 3.6+</li>
+      <li>pytube</li>
+   </ul>
 
-Installation
-   ```
-   pip install pytube
-   ```
+<h3>Installation</h3>
+   ```pip install pytube```
+   
+   
 
 Usage
 
