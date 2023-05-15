@@ -1,42 +1,34 @@
-<h1>Youtube_Downloader-Console_App</h1>
-<p>Youtube video downloader - Console Application [Python]</p>
+# Youtube_Downloader-Console_App
+Youtube video downloader - Console Application [Python]
 
-<h3>Requirements</h3>
-   <ul>
-      <li>Python 3.6+</li>
-      <li>pytube</li>
-   </ul>
+### Requirements
+- Python 3.6+
+- pytube
 
-<h3>Installation</h3>
-   ```pip install pytube```
-   
-   
+### Installation
+    pip install pytube
 
-Usage
+### Available Commands
+    s      | for download single video
+    m      | for download multiple videos 
+    l      | for download videos using url list(txt file)
+    h      | for get help
+    q      | for exit
 
-To download a single video, enter the video's URL and press Enter.
+### Usage
+- To download a single video, enter the video's URL and press Enter.
+- To download multiple videos, enter the videos' URLs, one per line, and enter 'x' when you are finished.
+- To download videos from a text file, enter the path to the text file and press Enter.
+- The text file should contain one video URL per line.
 
-To download multiple videos, enter the videos' URLs, one per line, and press Enter when you are finished.
 
-To download videos from a text file, enter the path to the text file and press Enter.
+### Notes
+- This script only downloads non-age restricted videos.
+- The videos will be downloaded to the ./Downloads directory.
 
-The text file should contain one video URL per line.
-Help
+### Author
+- SahanEra [https://sahanera.me]
 
-To get help, press h.
-Exit
-
-To quit, press q.
-Notes
-
-    This script only downloads non-age restricted videos.
-    The videos will be downloaded to the ./Downloads directory.
-
-Author
-
-Sahan Era
-License
-
-This project is licensed under the MIT License.
-
+### License
+- This project is licensed under the MIT License.
 
